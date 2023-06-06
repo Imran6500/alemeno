@@ -113,7 +113,7 @@ class Click extends StatelessWidget {
                       SizedBox(height: vm.photo == null ? 10 : 30),
                       Text(
                         vm.photo == null
-                            ? 'Click you meal'
+                            ? 'Click your meal'
                             : "Will you eat this?",
                         style: TextStyle(fontFamily: 'andika', fontSize: 24),
                       ),
